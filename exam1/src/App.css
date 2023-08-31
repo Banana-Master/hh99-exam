@@ -1,0 +1,41 @@
+body {
+  padding: 40px;
+}
+
+.input-box {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.input-box > input {
+  width: 350px;
+  height: 24px;
+}
+.input-box > button {
+  width: 140px;
+  height: 30px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.todos-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.todo-div {
+  border: 1px solid green;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
